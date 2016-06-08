@@ -1,7 +1,9 @@
 # ruby-test-examples
 Testing examples using minitest, mocha, and webmock
 
-## references
-https://github.com/seattlerb/minitest
-https://github.com/freerange/mocha
-https://github.com/bblimke/webmock
+### references
+[Minitest](https://github.com/seattlerb/minitest)
+
+[Mocha](https://github.com/freerange/mocha)
+
+[WebMock](https://github.com/bblimke/webmock)
