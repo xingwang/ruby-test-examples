@@ -1,2 +1,2 @@
-# ruby-test-webmock
-Testing examples using webmock
+# ruby-test-examples
+Testing examples using minitest, mocha, and webmock
