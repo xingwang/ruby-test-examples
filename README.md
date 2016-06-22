@@ -5,7 +5,7 @@ Testing examples using minitest, mocha, and webmock
 ## thoughts
 
 * minitest
-	* For Ruby testing, it seems the most popular 2 frameworks are RSpec and Minitest. RSpec is humongous and I wanted something light-weight so Minitest was the way to go. In the case where I needed anything extra, there are plenty of extensions that adds a lot more functionality to it.
+	* For Ruby testing, it seems the 2 most popular frameworks are RSpec and Minitest. RSpec is humongous and I wanted something light-weight so Minitest was the way to go. In the case where I needed anything extra, there are plenty of extensions that adds a lot more functionality to it.
 	* A caveat to using minitest is that you don't have any switches for recursive or globs to test everything. Instead, you have to create a loop to run all tests. This would ideally go into your rakefile.
 * mocha
 	* Mocha for Ruby is a pretty nice, little mocking/stubbing library that works well with Minitest.
