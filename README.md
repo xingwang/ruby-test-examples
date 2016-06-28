@@ -9,7 +9,7 @@ Testing examples using minitest, mocha, and webmock
 	* A caveat to using minitest is that you don't have any switches for recursive or globs to test everything. Instead, you have to create a loop to run all tests. This would ideally go into your rakefile.
 * mocha
 	* Mocha for Ruby is a pretty nice, little mocking/stubbing library that works well with Minitest.
-	* It reads really well is very easy to use. For assertions, "a stub is just an expectation of zero or more invocations" and the "stubs method is syntactic sugar to make the intent of the test more explicit." This means you can just assign the stub to a variable and attach it to the expectations in your it statements.
+	* It reads really well and is very easy to use. For assertions, "a stub is just an expectation of zero or more invocations" and the "stubs method is syntactic sugar to make the intent of the test more explicit." This means you can just assign the stub to a variable and attach it to the expectations in your it statements.
 	* One potential issue is that Mocha is not thread-safe.
 * webmock
 	* A really handy library for stubbing HTTP requests.
