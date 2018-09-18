@@ -2,6 +2,9 @@
 
 Testing examples using minitest, mocha, and webmock
 
+### running all tests
+`bundle exec ruby -Ilib -e 'ARGV.each { |f| require f }' ./test/*_spec.rb`
+
 ## thoughts
 
 * minitest

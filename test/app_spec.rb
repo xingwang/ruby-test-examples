@@ -2,7 +2,7 @@ require_relative '../lib/test_examples'
 require 'mocha'
 require 'minitest/autorun'
 require 'minitest/spec'
-require 'mocha/mini_test'
+require 'mocha/minitest'
 require 'webmock/minitest'
 
 describe TestExamples do
